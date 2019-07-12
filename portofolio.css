@@ -1,0 +1,27 @@
+body {
+    background-image: url("http://www.sompaisoscatalans.cat/simage/180/1802063/web-development-hd-wallpapers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    font stretch: ultra-condensed;
+}
+
+#hi {
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+}
+
+img {
+    float: right;
+}
+
+section {
+    margin: 300px auto;
+}
