@@ -37,7 +37,7 @@ span {
 
 #projects {
     text-align: center;
-    margin-top: 440px;
+    margin-top: 560px;
     color: white;
     border: 1px solid black;
     float: left;
@@ -72,20 +72,6 @@ h1,
 h2 {
     color: white;
 }
-
-
-/*nav {
-    max-width:960px;
-    margin: 0;
-    padding: 10px 0;
-    height: 60px;
-}*/
-
-
-/*p {
-    display: flex;
-    font: normal 20px/30px Georgia, serif;
-}*/
 
 nav {
     width: 915px;
