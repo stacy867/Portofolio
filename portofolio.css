@@ -32,6 +32,7 @@ span {
     border: 1px solid black;
     float: left;
     width: 2000px;
+    background-color: black;
 }
 
 section {
