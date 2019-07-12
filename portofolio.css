@@ -15,17 +15,19 @@ p {
 
 #hi {
     text-align: center;
-    margin: 50px;
+    margin-top: 250px;
     font-size: 30px;
 }
 
 img {
-    float: center;
+    float: initial;
     border: 1px solid black;
 }
 
 section {
-    margin: 100px auto;
+    margin-top: 300px;
+    justify content: space-between;
+    font-size: 50px;
 }
 
 #first {
@@ -35,6 +37,47 @@ section {
     float: left;
 }
 
-h1 {
+h1,
+h2 {
     color: white;
+}
+
+nav {
+    /*max-width:960px;*/
+    margin: 0;
+    padding: 10px 0;
+    height: 60px;
+}
+
+
+/*p {
+    display: flex;
+    font: normal 20px/30px Georgia, serif;
+}*/
+
+nav {
+    /*text-align:center;*/
+    width: 915px;
+    display: flex;
+    height: 70px;
+    margin: 40px auto;
+    padding: 5px;
+    font-weight: 600;
+}
+
+nav>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: white;
+    font: italic bold 15px/14px Georgia, serif;
+    text-align: center;
+}
+
+nav>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
 }
