@@ -25,6 +25,15 @@ img {
     border-radius: 50%;
 }
 
+span {
+    text-align: center;
+    margin-top: 400px;
+    color: white;
+    border: 1px solid black;
+    float: left;
+    width: 2000px;
+}
+
 section {
     margin-top: 300px;
     justify content: space-between;
@@ -58,7 +67,6 @@ h2 {
 }*/
 
 nav {
-    /*text-align:center;*/
     width: 915px;
     display: flex;
     height: 70px;
