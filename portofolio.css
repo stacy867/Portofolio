@@ -9,7 +9,7 @@ p {
     font-style: italic;
     font-size: 20px;
     color: white;
-    font stretch: ultra-condensed;
+    font-stretch: ultra-condensed;
     line-height: 50px;
 }
 
@@ -27,7 +27,27 @@ img {
 
 span {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 320px;
+    color: white;
+    border: 1px solid black;
+    float: left;
+    width: 2000px;
+    background-color: black;
+}
+
+#projects {
+    text-align: center;
+    margin-top: 440px;
+    color: white;
+    border: 1px solid black;
+    float: left;
+    width: 2000px;
+    background-color: black;
+}
+
+#aboutme {
+    text-align: center;
+    margin-top: 96px;
     color: white;
     border: 1px solid black;
     float: left;
@@ -37,7 +57,7 @@ span {
 
 section {
     margin-top: 300px;
-    justify content: space-between;
+    justify-content: space-between;
     font-size: 50px;
 }
 
