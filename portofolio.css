@@ -10,6 +10,7 @@ p {
     font-size: 20px;
     color: white;
     font stretch: ultra-condensed;
+    line-height: 50px;
 }
 
 #hi {
@@ -19,9 +20,20 @@ p {
 }
 
 img {
-    float: right;
+    float: center;
 }
 
 section {
-    margin: 300px auto;
+    margin: 100px auto;
+}
+
+#first {
+    border: 0px solid;
+    width: 710px;
+    height: 90px;
+    float: left;
+}
+
+h1 {
+    color: white;
 }
